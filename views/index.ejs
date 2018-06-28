@@ -1,1 +1,12 @@
+<% include partials/header %>
+<h1> <%= header %> </h1>
 
+      <script>
+	  var id = "<%= id %>"
+	  </script>
+	  <% if(id == "login"){%>
+      <% include partials/loginInterFace %>
+	  <% } else {%> <% include partials/registerInterFace %> <% } %>
+        
+ 
+<%include partials/footer  %>
