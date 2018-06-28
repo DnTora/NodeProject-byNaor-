@@ -1,1 +1,20 @@
+<script>
+function SignUp(){
+    location.replace("http://localhost:80/SignUp/");
+}
 
+function Register(){
+ alert("data need to join now");
+     const data = {
+	     userName:document.getElementById("userName").value,
+		 userPassword:document.getElementById("userPassword").value,
+		 userEmail:document.getElementById("userEmail").value
+	 }
+    
+	 Insert("myFirstProject","Users", data);
+	 
+	
+	   
+
+}
+</script>
